@@ -108,11 +108,11 @@ function App() {
     <>
       <h1>Fake Data load from local file</h1>
       {users.map((user) => (
-        <Users user={user}></Users>
+        <Users key={user.id} user={user}></Users>
       ))}
       <h1>Fake Data load from local file JSON</h1>
       {usersV2.map((user) => (
-        <Users user={user}></Users>
+        <Users key={user.id} user={user}></Users>
       ))}
     </>
   );
