@@ -1,6 +1,6 @@
 export default function Users({ user }) {
   const { username, age, id } = user;
-  console.log(user);
+  //   console.log(user);
   return (
     <div>
       <small>ID: {id}</small>

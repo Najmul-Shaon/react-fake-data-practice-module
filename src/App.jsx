@@ -1,5 +1,7 @@
+import { useState } from "react";
 import "./App.css";
 import Users from "./Users";
+import { useEffect } from "react";
 
 function App() {
   const users = [
@@ -95,12 +97,21 @@ function App() {
     },
   ];
 
-  // console.log(users[0].id);
+  const [usersV2, setUsersV2] = useState([]);
 
+  useEffect(() => {
+    fetch("users.json")
+      .then((res) => res.json())
+      .then((data) => setUsersV2(data));
+  }, []);
   return (
     <>
-      <h1>Fake Data</h1>
+      <h1>Fake Data load from local file</h1>
       {users.map((user) => (
+        <Users user={user}></Users>
+      ))}
+      <h1>Fake Data load from local file JSON</h1>
+      {usersV2.map((user) => (
         <Users user={user}></Users>
       ))}
     </>

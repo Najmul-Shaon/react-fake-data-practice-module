@@ -1,112 +1,92 @@
 [
   {
-    "id": 1,
-    "name": "John Doe",
-    "username": "johndoe123",
+    "id": 30,
+    "username": "john_doe",
     "email": "john@example.com",
-    "address": {
-      "street": "123 Main St",
-      "city": "Anytown",
-      "zipcode": "12345",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-555-555-5555",
-    "website": "johndoe.com",
-    "company": {
-      "name": "ABC Inc",
-      "catchPhrase": "Making things happen",
-      "bs": "Innovate and grow"
-    }
+    "age": 30
   },
   {
-    "id": 2,
-    "name": "Alice Smith",
-    "username": "alicesmith456",
-    "email": "alice@example.com",
-    "address": {
-      "street": "456 Oak St",
-      "city": "Otherville",
-      "zipcode": "54321",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-555-123-4567",
-    "website": "alicesmith.com",
-    "company": {
-      "name": "XYZ Corp",
-      "catchPhrase": "Building the future",
-      "bs": "Innovate and excel"
-    }
+    "id": 31,
+    "username": "jane_smith",
+    "email": "jane@example.com",
+    "age": 25
   },
   {
-    "id": 3,
-    "name": "Bob Johnson",
-    "username": "bobjohnson789",
-    "email": "bob@example.com",
-    "address": {
-      "street": "789 Elm St",
-      "city": "Smalltown",
-      "zipcode": "67890",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-555-789-0123",
-    "website": "bobjohnson.com",
-    "company": {
-      "name": "123 Co",
-      "catchPhrase": "Quality first",
-      "bs": "Innovate and deliver"
-    }
+    "id": 32,
+    "username": "sam_jones",
+    "email": "sam@example.com",
+    "age": 28
   },
   {
-    "id": 4,
-    "name": "Emma Davis",
-    "username": "emmadavis101",
-    "email": "emma@example.com",
-    "address": {
-      "street": "101 Pine St",
-      "city": "Villageton",
-      "zipcode": "13579",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-555-246-8013",
-    "website": "emmadavis.com",
-    "company": {
-      "name": "456 Ltd",
-      "catchPhrase": "Excellence in everything",
-      "bs": "Innovate and succeed"
-    }
+    "id": 33,
+    "username": "emily_wilson",
+    "email": "emily@example.com",
+    "age": 32
   },
   {
-    "id": 5,
-    "name": "Michael Brown",
-    "username": "michaelbrown007",
+    "id": 34,
+    "username": "alex_brown",
+    "email": "alex@example.com",
+    "age": 27
+  },
+  {
+    "id": 35,
+    "username": "lisa_jackson",
+    "email": "lisa@example.com",
+    "age": 29
+  },
+  {
+    "id": 36,
+    "username": "michael_thomas",
     "email": "michael@example.com",
-    "address": {
-      "street": "007 Maple St",
-      "city": "Metropolis",
-      "zipcode": "97531",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-555-987-6543",
-    "website": "michaelbrown.com",
-    "company": {
-      "name": "789 Enterprises",
-      "catchPhrase": "Innovation at its best",
-      "bs": "Innovate and lead"
-    }
+    "age": 35
+  },
+  {
+    "id": 37,
+    "username": "sarah_anderson",
+    "email": "sarah@example.com",
+    "age": 26
+  },
+  {
+    "id": 38,
+    "username": "william_clark",
+    "email": "william@example.com",
+    "age": 31
+  },
+  {
+    "id": 39,
+    "username": "olivia_wright",
+    "email": "olivia@example.com",
+    "age": 24
+  },
+  {
+    "id": 40,
+    "username": "daniel_miller",
+    "email": "daniel@example.com",
+    "age": 33
+  },
+  {
+    "id": 41,
+    "username": "chloe_taylor",
+    "email": "chloe@example.com",
+    "age": 22
+  },
+  {
+    "id": 42,
+    "username": "ethan_hall",
+    "email": "ethan@example.com",
+    "age": 28
+  },
+  {
+    "id": 43,
+    "username": "ava_johnson",
+    "email": "ava@example.com",
+    "age": 30
+  },
+  {
+    "id": 44,
+    "username": "noah_anderson",
+    "email": "noah@example.com",
+    "age": 29
   }
 ]
